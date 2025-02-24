@@ -115,7 +115,7 @@ async def process_updates(): # Process incoming updates
                 # Reply to the message in the group
                 send_telegram_message(chat_id, response_message, reply_to_message_id)
 
-        await asyncio.sleep(1)
+        await asyncio.sleep(10)
 
 
 # Run the bot
